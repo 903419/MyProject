@@ -1,0 +1,28 @@
+[2021-1-28 16-21-51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-1-28 16-21-51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-1-28 16-21-51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-1-28 16-21-51] INFO oj_server.cpp 66 listen_port : 9999
+[2021-1-28 16-22-14] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-1-28 16-22-14] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-1-28 16-22-14] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-1-28 16-22-14] INFO oj_server.cpp 66 listen_port : 9999
+[2021-1-28 16:23:28] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-1-28 16:23:28] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-1-28 16:23:28] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-1-28 16:23:28] INFO oj_server.cpp 66 listen_port : 9999
+[2021-1-28 16:33:5] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-1-28 16:33:5] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-1-28 16:33:5] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-1-28 16:33:5] INFO oj_server.cpp 66 listen_port : 9999
+[2021-1-28 16:34:17] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-1-28 16:34:17] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-1-28 16:34:17] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-1-28 16:34:17] INFO oj_server.cpp 66 listen_port : 9999
+[2021-2-1 20:0:51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-2-1 20:0:51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-2-1 20:0:51] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-2-1 20:0:51] INFO oj_server.cpp 71 listen_port : 9999
+[2021-2-1 20:5:54] ERROR tools.hpp 81 ReadFile of ./oj_data/2/desc.txt failed
+[2021-2-1 20:5:54] ERROR tools.hpp 81 ReadFile of ./oj_data/2/header.cpp failed
+[2021-2-1 20:5:54] ERROR tools.hpp 81 ReadFile of ./oj_data/2/tail.cpp failed
+[2021-2-1 20:5:54] INFO oj_server.cpp 71 listen_port : 9999
