@@ -57,10 +57,10 @@ class OjView
     //对用户提交的代码，返回运行结果
     static void DrawCaseResult(const Json::Value& res_json, string& html)
     {
-      ctemplate::TemplateDictionary  dict("result");
-      dict.SetValue("errno", res_json["errno"].asString());
-      dict.SetValue("compile_resul", res_json["stdout"].asString());
-      dict.SetValue("reason", res_json["reason"].asString());
+      ctemplate::TemplateDictionary  dict("question");
+      dict.SetValue("errno", res_json["errorno"].asString());
+      dict.SetValue("compile_result", res_json["reason"].asString());
+      dict.SetValue("case_result", res_json["stdout"].asString());
       ctemplate::Template* gtl = ctemplate::Template::GetTemplate("./template/case_result.html", ctemplate::DO_NOT_STRIP);     
       gtl->Expand(&html, &dict);   
     }

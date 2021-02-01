@@ -54,7 +54,7 @@ public:
     // 3.编译
     if(!Compile(file_nameheader))
     {
-      resp["errono"] = COMPILE_ERROR;
+      resp["errorno"] = COMPILE_ERROR;
       string reason;
       FileInit::ReadFile(CompileErrorPath(file_nameheader), reason);
       resp["reason"] = reason;
@@ -66,14 +66,14 @@ public:
     int ret = Run(file_nameheader);
     if(ret != 0)
     {
-      resp["errono"] = RUN_ERROR;
+      resp["errorno"] = RUN_ERROR;
       resp["reason"] = "parm exit by reason" + to_string(ret);
       Clean(file_nameheader);
       return;
     }
 
     // 5.构造响应
-    resp["errono"] = OK;
+    resp["errorno"] = OK;
     resp["reason"] = "Compile and Run OK";
     string stdout_str;
     FileInit::ReadFile(StdoutPath(file_nameheader), stdout_str);
@@ -85,7 +85,7 @@ public:
 
     // 6.清空临时文件
     
-    Clean(file_nameheader);
+    //Clean(file_nameheader);
   }
 
 
@@ -121,7 +121,7 @@ private:
 
       //限制子进程的运行内存，若用户提交的代码有死递归，或者递归层数过多，则不满足oj的条件
       struct rlimit rlim;
-      rlim.rlim_cur = 3000 * 1204;//3000k，软限制
+      rlim.rlim_cur = 30000 * 1204;//3wk，软限制
       rlim.rlim_max = RLIM_INFINITY;//不限制最大运行内存大小
       //setrlimit(int resource, const struct rlimit *rlim);
       // 1. resource为限制什么资源  RLIMIT_AS：进程虚拟内存大小，RLIMIT_CORE：核心转储大小，RLIMIT_CPU：占用cpu时间限制，RLIMIT_DATA：进程最大的数据段

@@ -61,6 +61,10 @@ int main()
       Json::Value resp_json;
       Complier::CompileAndRun(req_json, resp_json);
 
+      //string stdout = resp["stdout"].asString();
+      //cout << stdout << endl;
+      //cout << resp["stdout"].asString() << endl;
+      //cout << resp["reason"].asString() << endl;
       string html;
       OjView::DrawCaseResult(resp_json, html);
 
